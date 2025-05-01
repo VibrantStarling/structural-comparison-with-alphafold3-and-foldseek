@@ -19,7 +19,7 @@ import pandas as pd
 import matplotlib.colors as mplcolors
 
 
-cif_file = 'E:/Dropbox/1-Veupath-files/PROJECTS/Alphafold-toxo-test/2-all-proteins/Toxo65_ALL_out/tgme49_200310-t26_1/tgme49_200310-t26_1_model.cif'
+cif_file = 'model.cif'
 
 
 
@@ -70,7 +70,7 @@ cmap = mplcolors.ListedColormap(['#FFFFFF', '#B3E8FF', '#7FD9FF'])
 
 RAMA_PREFERENCES = {
     "General": {
-        "file": "E:/Dropbox/1-Veupath-files/PROJECTS/Alphafold-toxo-test/general-ramachandran-data.tsv",
+        "file": "general-ramachandran-data.tsv",
         "cmap": mplcolors.ListedColormap(['#FFFFFF', '#B3E8FF', '#7FD9FF']),
         "bounds": [0, 0.0005, 0.02, 1],
     }}
