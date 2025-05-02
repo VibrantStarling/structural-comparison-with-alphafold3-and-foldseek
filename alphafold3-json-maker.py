@@ -4,10 +4,11 @@ import json
 from Bio import SeqIO
 from pathlib import Path
 
+# put your fasta file path in here and make sure you are in the directory you want the jsons to be dumped in
 fasta_file = ""
 fasta_dict =  SeqIO.to_dict(SeqIO.parse(fasta_file, "fasta"))
-list_of_dicts_for_json = []
 
+# function that makes the jsons
 def make_jsons(fasta_dict):
     for key, value in fasta_dict.items():
         new_dict = {
@@ -30,3 +31,5 @@ def make_jsons(fasta_dict):
             json.dump(new_dict, write_file)
         write_file.close()
     return
+
+ make_jsons(fasta_dict)
