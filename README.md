@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/976134394.svg)](https://doi.org/10.5281/zenodo.17379945)
+
 # structural-comparison-with-alphafold3-and-foldseek
 various scripts and collections of code for processing alphafold, foldseek, metapredict, and interproscan data
 
